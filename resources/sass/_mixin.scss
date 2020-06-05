@@ -1,0 +1,64 @@
+//Los Mixins te permiten reutilizar estilos (propiedades e incluso selectores)
+
+	// IMAGEN
+	@mixin background-image($nombre){
+	 	background: url($nombre) center no-repeat;
+		background-size: cover;
+	}
+
+	// SUBMIT
+	@mixin input-submit-simple(){
+		width: 100px;
+		height: 30px;
+		cursor: pointer;
+		letter-spacing: 1px;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 0.9em;
+		border: 1px solid $color_principal;
+		background: $color_principal;
+	}
+	@mixin input-submit(){
+		letter-spacing: 1px;
+	    color: #fff;
+	    border-radius: 3px;
+	    background: $color_principal;
+	    border: 1px solid $color_principal;
+	    padding: 8px 40px;
+	    font-weight: bold;
+	}
+
+	// BUTTOM
+	@mixin button-customizable($letter,$border,$padding,$border_radius,$background_color,$color){
+		letter-spacing: $letter;
+		color: $color;
+		border: $border;
+		background-color: $background_color;
+	    padding: $padding;
+	    border-radius: $border_radius;
+	    cursor: pointer;
+	}
+
+	// FUENTES
+	@mixin font-size($size,$weight,$color:#000){
+		font-size: $size;
+		font-weight: $weight;
+		background: $color;
+	}
+
+	// BACKGROUND
+	@mixin menu-background($nombre){
+		//background-image: url(admin/#{$nombre}.png);//Requiere interpolado la variable
+		background-image: url("admin/" + $nombre + ".png");//No requiere ser interpolado
+	}
+
+	// CONDICIONALES
+	@mixin condicional($color){
+		@if $color == red{
+			border: 1px solid $color;
+		}@else if $color == blue{
+			border: 2px solid $color;
+		}@else{
+			border: 3px solid $color;
+		}
+	}
