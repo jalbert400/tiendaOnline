@@ -1,0 +1,57 @@
+/* INICIO HEADER SUPERIOR */
+.header__contact { border-bottom: 1px solid #e4e4e41c; }
+
+.header__contact-items > li { display: inline-block; padding-right: 15px; border-right: 1px solid #c5c5c5; font-size: 13px; color: #777777; }
+
+.header__contact-items > li i { color: #777777; }
+
+.header__contact-items > li:last-child { border-right: none; padding-right: 0; }
+
+.header__contact-items > li:last-child:hover .dropdown__cuenta-menu-icon i { color: #2277aa; }
+
+/* FIN HEADER SUPERIOR */
+/* INICIO HEADER CENTRO */
+.header__wrapper--menu { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
+
+.header__wrapper--menu-login { padding: 25px 5px; background: #478cb5; }
+
+.header__wrapper--menu-login h4 { font-size: 18px; font-weight: 500; color: #fff; text-align: center; }
+
+.header__wrapper--menu-login i { color: #ffffff; }
+
+.header__wrapper--menu-categorias { padding: 20px 15px; }
+
+.header__wrapper--menu-categorias .header__wrapper--menu-categorias-titulo { border-bottom: 1px solid #e4e4e4; font-size: 16px; margin-bottom: 10px; color: #4f6d7d; font-weight: 700; }
+
+.header__wrapper--buscador { width: 100%; max-width: 75%; opacity: .8; }
+
+.header__wrapper--buscador i { position: absolute; right: 10px; top: 0; padding: 9px; font-size: 1.2em; border-radius: 0px 4px 4px 0px; color: #d8d8d8; }
+
+.header__wrapper--cesta img { width: 50px; opacity: .4; }
+
+.header__wrapper--cesta .cesta-cantidad { position: absolute; background: #5796bb; border-radius: 50%; width: 21px; height: 19px; color: white; text-align: center; padding: 0px 3px; font-size: 12px; margin-left: -14px; z-index: 1; top: -8px; right: 0px; }
+
+/* FIN HEADER CENTRO
+
+/* INICIO HEADER INFERIOR */
+.header__navbar { background-color: #2277aa; }
+
+.header__navbar-menu > li { flex: auto; text-align: center; line-height: 2.5rem; }
+
+.header__navbar-menu > li a { color: white !important; padding: 12px 0px !important; font-weight: 400; }
+
+.header__navbar-menu > li:hover .header__navbar-sub-menu { display: block; }
+
+.header__navbar-sub-menu { position: absolute; display: none; z-index: 2; background: #fff; width: 100%; top: 100%; left: 0; }
+
+.header__navbar-sub-menu .header__navbar-sub-menu--titulo { border-bottom: 2px solid #2277aa; margin-bottom: 20px; line-height: 2; }
+
+.header__navbar-sub-menu .header__navbar-sub-menu--titulo a { color: #2277aa !important; font-size: 16px; font-weight: 600; line-height: 1.5; }
+
+.header__navbar-sub-menu ul li { line-height: 1.8; }
+
+.header__navbar-sub-menu ul li a { color: #333333 !important; font-weight: 500; font-size: 15px; }
+
+.header__navbar-sub-menu ul li:hover a { color: #2277aa !important; cursor: pointer; }
+
+/* FIN HEADER INFERIOR */

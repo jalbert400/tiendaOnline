@@ -1,0 +1,42 @@
+.btn-comprar {
+  @include button-personal(0,#2277aa,1px solid #2277aa,5px 30px,25px,#fff,600);
+}
+.btn-comprar:hover {
+  @include button-personal(0,#fff,1px solid #2277aa,5px 30px,25px,#2277aa,600);
+}
+.btn-submit-cuenta {
+  @include button-personal(0,#2277aa,1px solid #2277aa,5px 30px,25px,#fff,600);font-size: 14px;
+}
+.btn-submit-cuenta:hover {
+  @include button-personal(0,#fff,1px solid #2277aa,5px 30px,25px,#2277aa,600);font-size: 14px;
+}
+.btn-submit-modal {
+  @include button-personal(0,#fff,1px solid #2277aa,5px 30px,5px,#2277aa,600);font-size: 14px;box-shadow: 2px 2px 3px #000000;
+}
+.btn-submit-modal:hover {
+  opacity: 0.8;
+}
+.input-decorate {
+  @include input-decorate();
+}
+.btn-square-standard {
+  @include btn-square-standard();
+}
+.btn-square-standard:hover {
+  opacity: 0.8;
+}
+.btn-circle-standard{
+  @include button-personal(0,#2277aa,1px solid #2277aa,5px 30px,10px,#fff,500);font-size: 13px;
+}
+.btn-circle-standard:hover {
+  @include button-personal(0,#fff,1px solid #2277aa,5px 30px,10px,#2277aa,500);
+}
+.btn-circle-full-standard {
+  @include button-personal(0,#fff,1px solid #2277aa,5px 30px,5px,#2277aa,600);font-size: 14px;box-shadow: 2px 2px 3px #000000;
+}
+.btn-circle-full-standard:hover {
+  opacity: 0.8;
+}
+.btn-circle-line{
+  @include button-personal(0,#4e4e4e,1px solid #4e4e4e,5px 15px,10px,#d49a9a00,600);font-size: 12px;
+}

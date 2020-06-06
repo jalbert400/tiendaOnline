@@ -1,0 +1,56 @@
+.menu-servicio-cliente-card{
+
+    & .menu-servicio-cliente-card--header{
+      font-weight: 600;
+      opacity: .7;
+      color: $color_texto_principal;
+      & p{
+        font-size: 18px;
+        padding-bottom: 5px;
+        & span:before {
+          content: '';
+          position: absolute;
+          bottom: 0px;
+          height: 2px;
+          width: 100%;
+          background: #949494;
+          box-shadow: 0 1px 3px 1px #cecece;
+        }
+      }
+
+    }
+
+    & .menu-servicio-cliente-card--body {
+      padding-bottom: 0 !important;
+
+      & ul li{
+        border-bottom: 1px solid #d8dde1;
+        & i{
+          width: 18px;
+        }
+        & a{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+        }
+      }
+
+      & ul li a span{
+        font-size: 14px;
+      }
+
+    }
+}
+.navegacion-card--titulo span{
+  padding-bottom: 5px;
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+    background: #949494;
+    box-shadow: 0 1px 3px 1px #cecece;
+  }
+}

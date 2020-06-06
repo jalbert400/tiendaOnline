@@ -1,0 +1,26 @@
+.img-fondo-min {
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  background-size: contain !important;
+  background-position: center center !important;
+  height: 200px;
+}
+.flex-viewport{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ul.slides{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.flex-direction-nav .flex-prev {
+  left: -15px;
+}
+.flex-direction-nav .flex-next {
+  right: -15px;
+}

@@ -1,5 +1,5 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    
+
     <a href="{{ route('modulo.administrador.index') }}" class="brand-link">
         <img src="{{ url('images') }}/logos/icon.png" alt="{{ config('app.name', 'Sistema') }}" class="brand-image img-circle elevation-3"
              style="opacity: .8">
@@ -10,17 +10,17 @@
     <div class="sidebar">
 
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-            @auth
+
                 <div class="image">
                     <img src="{{ url('images') }}/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-                </div> 
+                </div>
                 <div class="info">
                     <a href="" class="d-block">
-                        {{ Auth()->user()->nombre}}  
+                        Admin
                         <strong> ( admin ) </strong>
                         </a>
-                </div> 
-            @endauth
+                </div>
+
         </div>
 
         <nav class="mt-2">
@@ -41,7 +41,7 @@
                         <p>No hay Menú.</p>
                     @endforelse
                 @endif
-              
+
                 <li class="nav-header">CONFIGURACIÓN</li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">
@@ -52,7 +52,7 @@
                     </p>
                     </a>
                 </li>
-                
+
                 <li class="nav-item has-treeview">
                     <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-tree"></i>
@@ -108,7 +108,101 @@
                     </p>
                     </a>
                 </li>
-                
+
+
+
+                <li class="nav-header">EXAMPLES</li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                    <i class="nav-icon far fa-envelope"></i>
+                    <p>
+                        Mailbox
+                        <i class="fas fa-angle-right right"></i>
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-book"></i>
+                    <p>
+                        Pages
+                        <i class="fas fa-angle-right right"></i>
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                    <i class="nav-icon far fa-plus-square"></i>
+                    <p>
+                        Extras
+                        <i class="fas fa-angle-right right"></i>
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-header">EXAMPLES</li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                    <i class="nav-icon far fa-envelope"></i>
+                    <p>
+                        Mailbox
+                        <i class="fas fa-angle-right right"></i>
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-book"></i>
+                    <p>
+                        Pages
+                        <i class="fas fa-angle-right right"></i>
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                    <i class="nav-icon far fa-plus-square"></i>
+                    <p>
+                        Extras
+                        <i class="fas fa-angle-right right"></i>
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-header">EXAMPLES</li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                    <i class="nav-icon far fa-envelope"></i>
+                    <p>
+                        Mailbox
+                        <i class="fas fa-angle-right right"></i>
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-book"></i>
+                    <p>
+                        Pages
+                        <i class="fas fa-angle-right right"></i>
+                    </p>
+                    </a>
+                </li>
+                <li class="nav-item has-treeview">
+                    <a href="#" class="nav-link">
+                    <i class="nav-icon far fa-plus-square"></i>
+                    <p>
+                        Extras
+                        <i class="fas fa-angle-right right"></i>
+                    </p>
+                    </a>
+                </li>
+
+
+
+
+
+
+
+
             </ul>
         </nav>
 
