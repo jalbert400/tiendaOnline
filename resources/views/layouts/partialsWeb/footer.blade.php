@@ -39,37 +39,37 @@
           <h6><b>SERVICIO AL CLIENTE</b></h6>
           <ul class="listado__items">
             <li class="py-1 py-1-no-top">
-              <a href="{{ url('/') }}servicio-cliente-quienes-somos">
+              <a href="{{ url('/servicio-cliente/quienes-somos') }}">
                 <span>Quienes Somos</span>
               </a>
             </li>
             <li class="py-1 py-1-no-top">
-              <a href="{{ url('/') }}servicio-cliente-como-comprar">
+              <a href="{{ url('/servicio-cliente/como-comprar') }}">
                 <span>Cómo Comprar</span>
               </a>
             </li>
             <li class="py-1 py-1-no-top">
-              <a href="{{ url('/') }}servicio-cliente-devoluciones">
+              <a href="{{ url('/servicio-cliente/devoluciones') }}">
                 <span>Devoluciones</span>
               </a>
             </li>
             <li class="py-1 py-1-no-top">
-              <a href="{{ url('/') }}servicio-cliente-libro-reclamaciones">
+              <a href="{{ url('/servicio-cliente/libro-reclamaciones') }}">
                 <span>Libro de Reclamaciones</span>
               </a>
             </li>
             <li class="py-1 py-1-no-top">
-              <a href="{{ url('/') }}servicio-cliente-politica-privacidad">
+              <a href="{{ url('/servicio-cliente/politica-privacidad') }}">
                 <span>Política de Privacidad</span>
               </a>
             </li>
             <li class="py-1 py-1-no-top">
-              <a href="{{ url('/') }}servicio-cliente-preguntas-frecuentes">
+              <a href="{{ url('/servicio-cliente/preguntas-frecuentes') }}">
                 <span>Preguntas Frecuentes</span>
               </a>
             </li>
             <li class="py-1 py-1-no-top">
-              <a href="{{ url('/') }}servicio-cliente-terminos-condiciones">
+              <a href="{{ url('/servicio-cliente/terminos-condiciones') }}">
                 <span>Términos y Condiciones</span>
               </a>
             </li>

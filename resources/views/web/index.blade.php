@@ -69,7 +69,7 @@
             <div class="productos-detacados-owl owl-carousel owl-theme">
               <div class="item-card">
                 <div class="productos-detacados-card--item">
-                  <a href="{{ url('/') }}productos-detalle">
+                  <a href="{{ url('/producto-detalle') }}">
                     <img class="img-responsive mb-20" src="{{ url('images/productos') }}/producto_1.jpg">
                     <div class="productos-detacados__info position-relative py-3">
                       <h4 class="productos-detacados__info--categoria">
@@ -90,7 +90,7 @@
               </div>
               <div class="item-card">
                 <div class="productos-detacados-card--item">
-                  <a href="{{ url('/') }}productos-detalle">
+                  <a href="{{ url('/producto-detalle') }}">
                     <img class="img-responsive mb-20" src="{{ url('images/productos') }}/producto_1.jpg">
                     <div class="productos-detacados__info position-relative py-3">
                       <h4 class="productos-detacados__info--categoria">
@@ -111,7 +111,7 @@
               </div>
               <div class="item-card">
                 <div class="productos-detacados-card--item">
-                  <a href="{{ url('/') }}productos-detalle">
+                  <a href="{{ url('/producto-detalle') }}">
                     <img class="img-responsive mb-20" src="{{ url('images/productos') }}/producto_1.jpg">
                     <div class="productos-detacados__info position-relative py-3">
                       <h4 class="productos-detacados__info--categoria">
@@ -132,7 +132,7 @@
               </div>
               <div class="item-card">
                 <div class="productos-detacados-card--item">
-                  <a href="{{ url('/') }}productos-detalle">
+                  <a href="{{ url('/producto-detalle') }}">
                     <img class="img-responsive mb-20" src="{{ url('images/productos') }}/producto_1.jpg">
                     <div class="productos-detacados__info position-relative py-3">
                       <h4 class="productos-detacados__info--categoria">

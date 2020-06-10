@@ -211,7 +211,7 @@
 
         <div class="wrapper">
 
-            @include('layouts.partials.header-web')
+            @include('layouts.partialsWeb.header')
 
 
             <div class="content-wrapper">
@@ -232,7 +232,7 @@
 
             </div>
 
-            @include('layouts.partials.footer-web')
+            @include('layouts.partialsWeb.footer')
 
         </div>
 
