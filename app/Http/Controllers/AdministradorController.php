@@ -5,15 +5,16 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Administrador\User;
 use App\Administrador\Role;
+use App\Http\Controllers\GeneralController;
 
-class AdministradorController extends Controller
+class AdministradorController extends GeneralController
 {
   public function index()
   {
     return view('administrador.index');
   }
 
-  public function list(Request $request)
+  public function list()
   {
 
     $resultado_modulos = User::getModulosByUserAuth();
