@@ -3,7 +3,7 @@
 namespace App\Administrador;
 
 use Illuminate\Database\Eloquent\Model;
-//use App\Transformers\PermisoTransformer;
+use App\Transformers\PermisoTransformer;
 use App\Administrador\User;
 use App\Administrador\Role;
 use Illuminate\Support\Facades\Auth;
@@ -19,7 +19,7 @@ class Permiso extends Model
   const TIPO_MODULO = "Modulo";
   const TIPO_SUBMODULO = "Submodulo";
 
-  //public $transformer = PermisoTransformer::class;
+  public $transformer = PermisoTransformer::class;
 
   protected $fillable = [
     'nombre',

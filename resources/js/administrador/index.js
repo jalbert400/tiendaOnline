@@ -66,7 +66,7 @@ function load_modulos() {
       alert('salio error en el file resoruces/js/administracion/index.js');
 
       console.log("error", jqXHR, textStatus)
-      $("#listModulos").html("")
+      $("#listModulos").html("no cargo los modulos")
       /*
       if(jqXHR.responseJSON){
         let errors = jqXHR.responseJSON.message  //captura objeto

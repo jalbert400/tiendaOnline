@@ -18,9 +18,13 @@ class AdministradorController extends GeneralController
   {
 
     $resultado_modulos = User::getModulosByUserAuth();
-
-    //return $this->showContJsonAll($resultado_modulos, true);
-
-    return response()->json(["error" => false, "response" => ["data" => $resultado_modulos]]);
+    //dd($resultado_modulos);
+    return $this->showContJsonAll($resultado_modulos);
+    /*
+    $retorna = $this->showContJsonAll($resultado_modulos, true);
+    dd($retorna);
+    return $retorna;
+    */
+    //return response()->json(["error" => false, "response" => ["data" => $resultado_modulos]]);
   }
 }
