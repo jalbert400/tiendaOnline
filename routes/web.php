@@ -54,3 +54,10 @@ Route::get('/administrador', 'AdministradorController@index')->name('modulo.admi
 
 //SESSION LOGOUT
 Route::post('/logout', 'Modulos\Auth\LoginController@logout')->name('modulo.login.logout');
+
+// --------------      -------------- //
+// -------------- JSON -------------- //
+// --------------      -------------- //
+
+//ADMINISTRATOR - LIST DASHBOARD
+Route::get('/administrador/lista', 'AdministradorController@list')->name('modulo.administrador.list');

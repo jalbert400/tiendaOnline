@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Model;
 
 trait SystemResponser
 {
-
+  /*
   private function successResponse($data, $permisos = null)
   {
 
@@ -42,4 +42,5 @@ trait SystemResponser
     //return $this->successResponse($collection, $permisosModel);
     return $this->successResponse($collection);
   }
+  */
 }

@@ -12,6 +12,8 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+  //ADMINISTRADOR
+  .js('resources/js/administrador/index.js', 'public/js/sistema/administrador/index.js')
   .sass('resources/sass/app.scss', 'public/css')
   .sass('resources/sass/login.scss', 'public/css/')
   .sass('resources/sass/estructura.scss', 'public/css/');

@@ -23,7 +23,7 @@ function load_modulos() {
   $.ajax({
     url: `/administrador/lista`,
     method: "get",
-    //data: { nombre: filter },
+    //data:{nombre:filter},
     dataType: "json",
   })
     .done(function (data) {
@@ -63,7 +63,7 @@ function load_modulos() {
 
     })
     .fail(function (jqXHR, textStatus) {
-      alert('salio error en js/sistema/administrador/index.js linea 66');
+      alert('salio error en el file resoruces/js/administracion/index.js');
 
       console.log("error", jqXHR, textStatus)
       $("#listModulos").html("")
