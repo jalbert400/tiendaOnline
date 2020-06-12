@@ -7,6 +7,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\Fractal\Facades\Fractal;
+use Spatie\Fractalistic\Fractal as FractalisticFractal;
 
 trait SystemResponser
 {
@@ -19,8 +20,7 @@ trait SystemResponser
 
   private function transformData($data, $transformer)
   {
-    //$transformation = fractal($data, new $transformer);
-    $transformation = Fractal($data, $transformer);
+    $transformation = fractal($data, new $transformer);
     return $transformation->toArray();
   }
 
