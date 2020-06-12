@@ -6,6 +6,7 @@ use DB;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Eloquent\Model;
+use Spatie\Fractal\Facades\Fractal;
 
 trait SystemResponser
 {
@@ -18,8 +19,8 @@ trait SystemResponser
 
   private function transformData($data, $transformer)
   {
-    $transformation = fractal($data, new $transformer);
-
+    //$transformation = fractal($data, new $transformer);
+    $transformation = Fractal($data, $transformer);
     return $transformation->toArray();
   }
 
