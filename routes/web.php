@@ -55,9 +55,15 @@ Route::get('/administrador', 'AdministradorController@index')->name('modulo.admi
 //SESSION LOGOUT
 Route::post('/logout', 'Modulos\Auth\LoginController@logout')->name('modulo.login.logout');
 
+//ADMINISTRADOR ROLES VIEW
+Route::get('/administrador/rol', 'Modulos\Rol\RolController@index')->name('modulo.rol.index');
+
 // --------------      -------------- //
 // -------------- JSON -------------- //
 // --------------      -------------- //
 
 //ADMINISTRATOR - LIST DASHBOARD
 Route::get('/administrador/lista', 'AdministradorController@list')->name('modulo.administrador.list');
+
+//ADMINISTRADOR ROLES
+Route::get('/administrador/roles/lista', 'Modulos\Rol\RolController@lista')->name('modulo.rol.index.ajax');

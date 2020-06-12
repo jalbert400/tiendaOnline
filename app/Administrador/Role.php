@@ -20,4 +20,12 @@ class Role extends Model
   {
     $this->attributes['nombre'] = strtoupper($nombre);
   }
+
+  public static function getSubRolesByRolUser()
+  {
+    //if($usuario->tienePermisoEspecial()){
+    return Role::all();
+    //}
+    //return Role::where('referencia','=',$usuario->role_id)->get();
+  }
 }

@@ -7,11 +7,17 @@ window._ = require('lodash');
  */
 
 try {
-    window.Popper = require('popper.js').default;
-    window.$ = window.jQuery = require('jquery');
+  window.Popper = require('popper.js').default;
+  window.$ = window.jQuery = require('jquery');
 
-    require('bootstrap');
-} catch (e) {}
+  require('bootstrap');
+
+  require('datatables.net-bs4');
+  require('datatables.net');
+  require('datatables.net-buttons-bs4');
+  require('datatables.net-buttons/js/buttons.html5.js');
+  require('datatables.net-buttons/js/buttons.print.js');
+} catch (e) { }
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
