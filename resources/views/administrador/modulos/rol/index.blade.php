@@ -46,7 +46,7 @@
                                     <th>Id</th>
                                     <th>Nombre</th>
                                     <th>Estado</th>
-                                    <th>Acciones3</th>
+                                    <th>Acciones35</th>
                                 </tr>
                             </thead>
                         </table>
