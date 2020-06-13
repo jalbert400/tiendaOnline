@@ -1,0 +1,19 @@
+.subcategorias-card--item{
+  margin-top: 5px;
+  background-color: #fff;
+  padding: 20px 10px 5px 10px;
+  cursor: pointer;
+  border: 1px solid #dadada;
+  box-shadow: 1px 1px 3px 1px #eaeaea;
+  & h3 {
+    margin-bottom: 15px;
+    padding: 10px 0;
+    line-height: 1.3rem;
+  }
+  &:hover{
+    border: 1px solid $color_principal;
+    & h3 {
+      color: $color_principal;
+    }
+  }
+}

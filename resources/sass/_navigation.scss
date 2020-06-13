@@ -1,0 +1,11 @@
+.navegacion-card{
+  border-bottom: 2px solid #afafaf;
+  margin-bottom: 30px;
+
+  & .navegacion-card--titulo{
+      padding-bottom: 10px;
+      font-weight: 600;
+      opacity: .7;
+      color: $color_texto_principal;
+  }
+}

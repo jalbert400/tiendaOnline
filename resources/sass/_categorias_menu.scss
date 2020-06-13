@@ -1,0 +1,39 @@
+.menu-categoria{
+
+    & .menu-categoria--header{
+      font-weight: 600;
+      opacity: .7;
+      color: $color_texto_principal;
+      & p{
+        font-size: 18px;
+        padding-bottom: 5px;
+        & span:before {
+          content: '';
+          position: absolute;
+          bottom: 0px;
+          height: 2px;
+          width: 50%;
+          background: #949494;
+          box-shadow: 0 1px 3px 1px #cecece;
+        }
+      }
+
+    }
+
+    & .menu-categoria--body {
+      padding-bottom: 0 !important;
+
+      & ul li{
+        border-bottom: 1px solid #d8dde1;
+        width: 80%;
+        & i{
+          width: 18px;
+        }
+      }
+
+      & ul li a span{
+        font-size: 14px;
+      }
+
+    }
+}

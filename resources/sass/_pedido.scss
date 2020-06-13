@@ -1,0 +1,94 @@
+.pedido-titulo{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: $color_texto_principal;
+}
+.pedido-descripcion{
+  font-size: .9rem;
+  font-weight: 500;
+  color: $color_texto_principal;
+}
+.sub-titulo-pedido{
+  font-size: .9rem;
+  font-weight: 600;
+  color: $color_texto_principal;
+}
+.sub-descripcion-pedido{
+  font-size: .8rem;
+  font-weight: 500;
+  color: $color_texto_principal;
+}
+.barra-bottom:before {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  height: 1px;
+  width: 50%;
+  background: #949494;
+  box-shadow: 0 1px 3px 1px #cecece;
+}
+.pago-pedido-card {
+  box-shadow: 0 0px 3px 1px #cecece;
+}
+.pago-pedido-card-descripcion{
+  font-size: .8rem;
+  font-weight: 500;
+  color: $color_texto_principal;
+}
+
+
+.pedido-productos-confirmacion{
+  width: 95%;
+  & .col{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  & img{
+    height: 100px;
+  }
+  & .pedido-productos-confirmacion--detalle {
+    & p{
+      width: 100%;
+      text-align: right;
+    }
+    & span{
+      display: block;
+      font-size: 12px;
+      font-weight: 500;
+      opacity: .7;
+    }
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    height: 1px;
+    width: 100%;
+    background: #949494;
+    box-shadow: 0 1px 3px 1px #cecece;
+  }
+
+}
+
+.productos-confirmacion--precio {
+  width: 95%;
+  & p {
+    font-size: 12px;
+    font-weight: 500;
+    opacity: .7;
+  }
+  & .productos-confirmacion--total:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: -15px;
+    height: 1px;
+    width: 50%;
+    background: #949494;
+    box-shadow: 0 1px 3px 1px #cecece;
+  }
+
+}

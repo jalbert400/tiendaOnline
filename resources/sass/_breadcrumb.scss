@@ -1,0 +1,9 @@
+.breadcrumb-card {
+  font-size: 13px;
+  font-weight: 500;
+  opacity: .7;
+
+  & .breadcrumb-active{
+    color: $color_principal;
+  }
+}

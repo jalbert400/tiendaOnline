@@ -1,0 +1,15 @@
+.slider-banners {
+  max-width: 1300px;
+  width: 100%;
+}
+.owl-dots {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+  background: $color_principal !important;
+}
+.owl-nav {
+  display: none;
+}

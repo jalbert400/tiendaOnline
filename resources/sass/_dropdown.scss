@@ -1,0 +1,68 @@
+.dropdown__cuenta-menu--list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 2;
+  padding: 15px 20px;
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #191919;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #d8dde1;
+  border-radius: .5rem;
+  display: none;
+  width: max-content;
+
+  & li {
+    font-size: 13px;
+    font-weight: 500;
+    &:last-child {
+      border-top: 1px solid #c5c5c5;
+      margin-top: 10px;
+    }
+    & a, & i {
+      color:$color_link;
+      transition:all .3s ease;
+    }
+    &:hover a, &:hover i{
+      color: #0e0e0e;
+    }
+  }
+}
+
+.dropdown__cuenta-menu {
+  &::after {
+    position: absolute;
+    content: "";
+    z-index: 5;
+    height: 20px;
+    width: 100%;
+    right: 0;
+    top: 82%;
+  }
+  &:hover{
+    & .dropdown__cuenta-menu--list {
+      display: block;
+    }
+    & .dropdown__cuenta-menu-icon::after{
+      visibility: visible;
+    }
+  }
+}
+.dropdown__cuenta-menu-icon::after {
+  position: absolute;
+  content: "";
+  background: #ffffff;
+  z-index: 3;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px 0 0 0;
+  transform: rotate(45deg);
+  box-shadow: inset 1px 1px #d8dde1;
+  right: 25px;
+  top: 100%;
+  visibility: hidden;
+}

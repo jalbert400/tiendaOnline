@@ -1,0 +1,65 @@
+.modal-content-card {
+  border-radius: 20px 20px 0 0px;
+
+  & .modal-header {
+    position: absolute;
+    width: 100%;
+    border-bottom: none;
+  }
+
+  & .modal-header .close {
+    font-size: 2.5em;
+    opacity: 1;
+    color: #ffffff;
+    position: relative;
+    top: -45px;
+    right: -57px;
+    text-shadow: none;
+  }
+
+  & .modal-header .close:hover {
+    color: $color_principal;
+  }
+
+  & .modal-background-card {
+    border-radius: 20px;
+    background: white !important;
+
+    & .modal-titulo-card .modal-fondo-card {
+      height: 120px;
+      @include background-image("../images/modales/fondoModal.jpg");
+      border-radius: 20px 20px 0px 0px;
+      background-repeat: no-repeat !important;
+      background-size: cover !important;
+      background-position: center center !important;
+    }
+
+    & .modal-titulo-card h3 {
+      margin: 0px;
+      font-weight: bold;
+      color: white;
+      padding: 44px 20px;
+      letter-spacing: 1.5px;
+      font-size: 1.7em;
+      text-align: center;
+    }
+  }
+
+}
+
+.modal-formulario .form-titulo {
+  font-size: 1em;
+  font-weight: 500;
+  opacity: .9;
+}
+.modal-formulario .modal-formulario--contenido .form-group label {
+  font-weight: 500;
+  opacity: .9;
+  font-size: 1rem;
+}
+.modal-formulario .modal-formulario--contenido .modal-text-link {
+  font-weight: 500;
+  opacity: .9;
+  font-size: 1rem;
+}
+

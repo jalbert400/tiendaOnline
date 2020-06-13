@@ -1,0 +1,63 @@
+.cc-selector {
+
+  & ul li {
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 1.25rem;
+    background-color: #fff;
+    margin-bottom: 30px;
+    max-width: 100%;
+    position: relative;
+    box-shadow: 2px 2px 4px #b2c1ce;
+    transition-duration: 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    & span{
+      width: 100%;
+      padding: 15px;
+    }
+  }
+}
+.cc-selector input {
+  margin: 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.cc-selector input:active+.drinkcard-cc {
+  opacity: 0.5;
+}
+.cc-selector input:checked+.drinkcard-cc {
+  -webkit-filter: none;
+  -moz-filter: none;
+  filter: none;
+}
+.drinkcard-cc {
+  cursor: pointer;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: calc(100% - 15px);
+  height: 60px;
+  margin-bottom: 0;
+  margin-top: 8px;
+  -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  -webkit-filter: brightness(1.8) grayscale(1) opacity(0.7);
+  -moz-filter: brightness(1.8) grayscale(1) opacity(0.7);
+  filter: brightness(1) grayscale(1) opacity(0.7);
+}
+.drinkcard-cc:hover {
+  -webkit-filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+  -moz-filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+  filter: brightness(1.2) grayscale(0.5) opacity(0.9);
+}
+.visa {
+  @include background-image("../images/pagos/pago_bbva.png");
+}
+.mastercard {
+  background-image: url("http://i.imgur.com/SJbRQF7.png");
+}

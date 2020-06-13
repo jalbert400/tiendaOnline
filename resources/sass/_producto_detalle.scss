@@ -1,0 +1,106 @@
+.producto-detalle {
+  & .producto-detalle--titulo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #2f3d4e;
+  }
+  & .producto-detalle--descripcion{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #2f3d4e;
+  }
+}
+.producto-detalle-peso{
+  & .producto-detalle-peso--formato{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #2f3d4e;
+  }
+  & .listado-producto-peso {
+    overflow: hidden;
+    & li{
+      float: left;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: 8px 10px 7px 10px;
+      width: 77px;
+      height: 67px;
+      border-radius: 3px;
+      background-color: #fff;
+      border: solid 1px #ccc;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      & .producto-peso--formato{
+        font-size: 13px;
+        font-weight: 700;
+      }
+      & .producto-peso--precio{
+        font-size: 10px;
+        opacity: .7;
+      }
+      &:hover{
+        cursor: pointer;
+        background: #ebf0f3;
+        border-color: #2277aa42;
+        & .producto-peso--precio{
+          color: #315469;
+          font-weight: 500;
+        }
+      }
+    }
+
+  }
+}
+.producto-detalle-precio{
+
+  & .producto-precio-actual-before{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & .producto-precio-before{
+      font-size: 9px;
+      font-weight: 500;
+      color: #2f3d4e;
+
+      &::before{
+        position: absolute;
+        content: "";
+        left: 8px;
+        top: 50%;
+        right: 5px;
+        border-top: 1px solid #2277aa;
+        transform: rotate(-10deg);
+      }
+    }
+
+    & .producto-precio-actual{
+        font-size: 16px;
+        font-weight: 600;
+        color: #2f3d4e;
+    }
+  }
+}
+
+.producto-descripcion {
+  & .producto-descripcion--titulo{
+    padding-bottom: 10px;
+   &:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      width: 50%;
+      background: #949494;
+      box-shadow: 0 1px 3px 1px #cecece;
+    }
+  }
+
+}

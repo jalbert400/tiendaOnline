@@ -1,0 +1,170 @@
+.cuenta-seccion .col{
+  align-self: center;
+}
+.cuenta-icon {
+
+  & i{
+    font-size: 5em;
+    opacity: .7;
+  }
+
+  &:hover{
+    color: $color_texto_principal;
+  }
+}
+
+.menu-cuenta-card{
+    border: 1px solid #d8dde1;
+
+    & .menu-cuenta-card--header{
+      border-bottom: 1px solid #d8dde1;
+      background-color: #d8dde13d;
+
+      & p{
+        font-size: 18px;
+      }
+
+    }
+
+    & .menu-cuenta-card--footer p {
+      border-top: 1px solid #d8dde1;
+      padding-top: 15px;
+      & span {
+        font-weight: 500;
+      }
+    }
+
+    & .menu-cuenta-card--footer a:hover i, & .menu-cuenta-card--footer a:hover span {
+      color: 1px solid $color_principal !important;
+    }
+
+    & .menu-cuenta-card--body {
+      padding-bottom: 0 !important;
+
+      & ul li i{
+        width: 18px;
+      }
+
+      & ul li a span{
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+    }
+}
+
+.select-items{
+  width: 10rem;
+  display: inline-block;
+}
+
+.table-container {
+  padding-top: 40px;
+
+  & .table-responsive thead tr {
+    font-size: 15px;
+    opacity: .7;
+  }
+  & .table-responsive thead tr th{
+    border-top: none;
+  }
+  & .table-responsive tbody tr {
+    font-size: 14px;
+    opacity: .7;
+  }
+}
+
+.color-pendiente {
+  color: red;
+}
+.color-pagado {
+  color: green;
+}
+.color-confirmado {
+  color: orange;
+}
+.color-entregado {
+  color: blue;
+}
+.link-ver-mas:hover {
+  color: $color_principal !important;
+}
+.pedido-detalle-estado > p {
+  font-weight: 500;
+  font-size: 14px;
+  opacity: .7;
+}
+.pedido-detalle-compra {
+
+  & img {
+    width: 50px;
+  }
+  & p {
+    font-size: 10px;
+  }
+  & tr {
+
+    & th .pedido-detalle-compra--producto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0 !important;
+
+      & p {
+        margin-top: 5px
+      }
+
+    }
+
+    & td {
+      vertical-align: middle;
+      text-align: center;
+    }
+
+  }
+
+}
+.pedido-detalle-compra--monto tr th {
+  border-top: none !important;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.seguimiento-pedido-card {
+
+  & .seguimiento-pedido-card--titulo {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  & .seguimiento-pedido-card--items{
+
+    & .seguimiento-estado-titulo{
+      font-size: 13px;
+      font-weight: 700;
+      opacity: .7;
+      height: 20px;
+    }
+    & .seguimiento-pedido-card-detalle{
+
+      & span i{
+        font-size: 3rem;
+      }
+      & .active{
+        color: $color_principal;
+      }
+    }
+    & .seguimiento-fecha{
+      font-size: 11px;
+      font-weight: 600;
+      opacity: .7;
+    }
+    & .seguimiento-estado-detalle{
+      font-size: 10px;
+      font-weight: 600;
+      opacity: .7;
+    }
+
+  }
+}

@@ -1,0 +1,40 @@
+@media screen and (max-width: 992px) { .hidden-md { display: none !important; }
+  .footer__centro--categorias .col { margin-bottom: 30px; }
+  .widgets-items .col { padding: 15px 15px; }
+  .header__center--menu { align-items: center; justify-content: start; display: flex; }
+  .list-menu-main-hidden li a { color: #555555 !important; }
+  .header__wrapper--logo { text-align: center; }
+  .menu-carrito-card { max-width: 500px; margin-right: auto; margin-left: auto; }
+  .header__center { box-shadow: 2px 2px 4px gainsboro; }
+  .header__wrapper--cesta img { width: 35px; }
+  .cesta-titulo { display: none; }
+  header { box-shadow: 0px 1px 5px #9c9090; position: relative; }
+  .cuenta-seccion .col { margin: 10px 0; }
+  .sub-categoria-detalle .col { margin-bottom: 30px; }
+  .sub-categoria-detalle .sub-categoria-detalle--card { border: none; }
+  .sub-categoria-detalle .sub-categoria-detalle--card .sub-categoria-detalle--contenido { border: 1px solid #afafaf; padding: 15px; }
+  .sub-categoria-menu .filter-price-input div:first-child input { margin-bottom: 20px; } }
+
+@media screen and (max-width: 768px) { .footer__inferior--derechos div { text-align: center !important; }
+  .footer__centro--icon-pagos .col { margin-bottom: 30px; }
+  .product-card-container { padding: 30px; }
+  .widgets-items .col { padding: 15px 45px; }
+  .hidden-ms { display: none !important; }
+  .page-content { z-index: 10; position: relative; transform: inherit !important; }
+  .menu-cuenta-card--container { margin-bottom: 30px; }
+  .total-pedidos { margin-bottom: 20px; }
+  .pago-pedido-card div:first-child { margin-bottom: 20px; } }
+
+@media screen and (max-width: 600px) { .modal-content-card .modal-header .close { top: 0; right: 0; } }
+
+@media screen and (max-width: 575px) { .product-card-container { padding: 30px 50px 30px 50px; }
+  .carrito-card-items--cantidad { padding: 15px 0; }
+  .checkout-steps { margin-left: -15px; }
+  .checkout-steps > a { width: 13% !important; border-radius: 0px; }
+  .checkout-steps > a.active { width: 70% !important; }
+  .steps-m { display: block !important; }
+  .steps-d { display: none !important; }
+  .pedido-realizado-descripcion .col:first-child { margin-bottom: 20px; } }
+
+@media (min-width: 992px) { .hidden-md-min { display: none !important; }
+  .header__wrapper--logo { text-align: left; } }
