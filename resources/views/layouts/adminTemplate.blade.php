@@ -25,9 +25,6 @@
         <script src="{{ url('js/jquery.overlayScrollbars.min.js') }}"></script>
         <script src="{{ url('js/adminlte.min.js') }}"></script>
 
-        <link  href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
-        <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-
         @yield('estilos')
         @yield('scripts-header')
 
