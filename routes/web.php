@@ -60,6 +60,7 @@ Route::get('/administrador/rol', 'Modulos\Rol\RolController@index')->name('modul
 
 //ADMINISTRADOR BANNERS VIEW
 Route::get('/administrador/banner', 'Modulos\Banner\BannerController@index')->name('modulo.banner.index');
+Route::get('/administrador/banner/crear', 'Modulos\Banner\BannerController@create')->name('submodulo.banner.store');
 
 // --------------      -------------- //
 // -------------- JSON -------------- //

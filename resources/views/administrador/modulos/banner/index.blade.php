@@ -35,8 +35,8 @@
         <div class="col-12">
             <div class="card">
                 <div class="card-header px-2 py-1">
-                    <a href="" class="btn btn-sm btn-outline-success mx-1 shadow-sm"><i class="fa fa-arrow-left"></i> Atras</a>
-                    <a href="" class="btn btn-sm btn-outline-primary shadow-sm mx-1" id="activeModalBannerStore">Crear <i class="fa fa-plus-square" aria-hidden="true"></i> </a>
+                    <a href="{{route('modulo.administrador.index')}}" class="btn btn-sm btn-outline-success mx-1 shadow-sm"><i class="fa fa-arrow-left"></i> Atras</a>
+                    <a href="{{route('submodulo.banner.store')}}" class="btn btn-sm btn-outline-primary shadow-sm mx-1" id="activeModalBannerStore">Crear <i class="fa fa-plus-square" aria-hidden="true"></i> </a>
                 </div>
                 <div class="card-body">
                     <section class="content_table_list">
