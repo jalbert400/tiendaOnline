@@ -16,6 +16,10 @@ mix.js('resources/js/app.js', 'public/js')
   .js('resources/js/administrador/index.js', 'public/js/sistema/administrador/index.js')
   //ROLES
   .js('resources/js/administrador/modulos/role/index.js', 'public/js/sistema/modulos/roles/index.min.js')
+  //BANNERS
+  .js('resources/js/administrador/modulos/banner/index.js', 'public/js/sistema/modulos/banners/index.min.js')
+
+
   .sass('resources/sass/app.scss', 'public/css')
   .sass('resources/sass/login.scss', 'public/css/')
   .sass('resources/sass/estructura.scss', 'public/css/');

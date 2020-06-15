@@ -4,5 +4,6 @@
     "/css/login.css": "/css/login.css",
     "/css/estructura.css": "/css/estructura.css",
     "/js/sistema/administrador/index.js": "/js/sistema/administrador/index.js",
+    "/js/sistema/modulos/banners/index.min.js": "/js/sistema/modulos/banners/index.min.js",
     "/js/sistema/modulos/roles/index.min.js": "/js/sistema/modulos/roles/index.min.js"
 }

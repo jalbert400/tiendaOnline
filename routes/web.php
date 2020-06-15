@@ -58,6 +58,9 @@ Route::post('/logout', 'Modulos\Auth\LoginController@logout')->name('modulo.logi
 //ADMINISTRADOR ROLES VIEW
 Route::get('/administrador/rol', 'Modulos\Rol\RolController@index')->name('modulo.rol.index');
 
+//ADMINISTRADOR BANNERS VIEW
+Route::get('/administrador/banner', 'Modulos\Banner\BannerController@index')->name('modulo.banner.index');
+
 // --------------      -------------- //
 // -------------- JSON -------------- //
 // --------------      -------------- //
@@ -67,3 +70,6 @@ Route::get('/administrador/lista', 'AdministradorController@list')->name('modulo
 
 //ADMINISTRADOR ROLES
 Route::get('/administrador/roles/lista', 'Modulos\Rol\RolController@lista')->name('modulo.rol.index.ajax');
+
+//ADMINISTRADOR BANNERS
+Route::get('/administrador/banners/lista', 'Modulos\Banner\BannerController@lista')->name('modulo.banner.index.ajax');
